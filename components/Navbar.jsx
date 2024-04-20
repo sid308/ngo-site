@@ -65,7 +65,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className="">
+        <div className="absolute w-full mx-auto top-0 z-50 overflow-hidden">
             <div className="flex items-center justify-evenly">
                 <p className="text-5xl font-bold font-serif text-[#4ABB47] w-[50%] mx-auto text-center">Free NGO Site</p>
                 <div className="flex items-center justify-center text-white text-2xl font-bold font-serif gap-x-10 bg-[#424242] rounded-bl-full h-24 w-[50%] m-auto">
