@@ -35,7 +35,7 @@ export default function Home() {
           modules={[EffectFade, Navigation, Pagination, Autoplay]}
           className="mySwiper"
           autoplay={{
-            delay: 1500,
+            delay: 3000,
             disableOnInteraction: false,
           }}
         >
@@ -129,7 +129,7 @@ export default function Home() {
       </div>
       <div className="flex items-center px-72 py-20">
         <div className="w-[400px] mx-auto flex items-center justify-end">
-          <Image src={kid_play} width={400} className="" />
+          <Image src={kid_play} width={400} className="" alt="kid_play" />
         </div>
         <div className="shadow-2xl drop-shadow-2xl p-10 mx-auto w-[400px]  flex flex-col items-center justify-start">
           <p className="font-serif text-3xl font-medium">Best NGO for CSR in India:  Foundation</p>
@@ -175,7 +175,7 @@ export default function Home() {
       </div>
       <div className="flex items-center px-72   gap-x-10">
         <div className="w-full mx-auto flex items-center justify-end">
-          <Image src={kid_learn} width={550} className="" />
+          <Image src={kid_learn} width={550} className="" alt="kid-learn" />
         </div>
         <div className="shadow-2xl drop-shadow-2xl p-10 mx-auto w-full flex flex-col items-center justify-start  border-2">
           <p className="font-serif text-3xl font-medium">Projects For Skill Training</p>
@@ -208,7 +208,7 @@ export default function Home() {
         <div className="text-white w-[50%] mx-auto">
           <p className="font-serif text-5xl font-bold ">We Make a Difference in their Life</p>
           <p className="py-8 text-[#4ABB47] font-sans font-semibold">NEWS AND UPDATES</p>
-          <p className="text-justify font-sans font-medium text-gray-400 leading-8">Our organization also works towards women's empowerment, health, environment, consumer awareness, and cancer patients. We request you to donate to poor and support these types of causes, as each contribution counts towards making a significant impact.
+          <p className="text-justify font-sans font-medium text-gray-400 leading-8">Our organization also works towards women&apos;s empowerment, health, environment, consumer awareness, and cancer patients. We request you to donate to poor and support these types of causes, as each contribution counts towards making a significant impact.
           </p>
           <button className="my-8 bg-[#4ABB47] px-4 py-2">Read More</button>
         </div>
